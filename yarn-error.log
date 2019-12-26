@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js add styled-components
+
+PATH: 
+  /home/lucasfigueiredo/bin:/home/lucasfigueiredo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/home/lucasfigueiredo/Documentos/goreact/module1/node_modules/@babel/core/node_modules'
+
+npm manifest: 
+  {
+    "name": "module1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "webpack --mode development"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Lucasfigueiredo08/goReactModule1.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Lucasfigueiredo08/goReactModule1/issues"
+    },
+    "homepage": "https://github.com/Lucasfigueiredo08/goReactModule1#readme",
+    "dependencies": {
+      "react": "^16.12.0",
+      "react-dom": "^16.12.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.7.5",
+      "@babel/preset-env": "^7.7.6",
+      "@babel/preset-react": "^7.7.4",
+      "babel-loader": "^8.0.6",
+      "webpack": "^4.41.2",
+      "webpack-cli": "^3.3.10"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
