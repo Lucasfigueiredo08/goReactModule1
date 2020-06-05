@@ -15,7 +15,7 @@ class App extends Component {
     handleClick = () => {
         this.setState({ counter: this.state.counter + 1 });
     };
-    
+
     render(){
         return (
         <Fragment>
@@ -29,4 +29,3 @@ class App extends Component {
 
 render(<App/>, document.getElementById("app"));
 
- 

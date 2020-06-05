@@ -24,4 +24,8 @@ npm install -D @babel/core @babel/preset-env @babel/preset-react babel-loader we
 
 #comando aula11 - stateless e stateful
 
+#comandos aula 16 - eslint e pretier
+npx eslint --init
+npm install babel-eslint -D
+
 

@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/share/yarn/bin/yarn.js add node-sass -D
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js add eslint --init
 
 PATH: 
   /home/lucasfigueiredo/bin:/home/lucasfigueiredo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: EACCES: permission denied, mkdir '/home/lucasfigueiredo/Documentos/goreact/module1/node_modules/@babel/core/node_modules/debug'
+  Error: EACCES: permission denied, unlink '/home/lucasfigueiredo/Documentos/goreact/module1/node_modules/@babel/helper-validator-identifier/LICENSE'
 
 npm manifest: 
   {
@@ -38,6 +38,7 @@ npm manifest:
     },
     "homepage": "https://github.com/Lucasfigueiredo08/goReactModule1#readme",
     "dependencies": {
+      "node-sass": "^4.14.1",
       "prop-types": "^15.7.2",
       "react": "^16.13.1",
       "react-dom": "^16.13.1",
